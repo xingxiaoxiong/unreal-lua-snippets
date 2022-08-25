@@ -1,5 +1,5 @@
 
-metaverse_actor.tick = function(delta_seconds)
-    print(delta_seconds)
-    self.K2_AddActorLocalRotation({Yaw=100*delta_seconds, Pitch=0, Roll=0})
+metaverse_actor.OnActorBeginOverlap = function(me, other)
+    print(tostring(me) .. ' colliding with ' .. tostring(other))
+    other.K2_AddActorLocalRotation({Yaw=10, Pitch=0, Roll=0})
 end

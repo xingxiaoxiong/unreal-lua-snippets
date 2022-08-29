@@ -1,4 +1,3 @@
-
-metaverse_actor.Tick = function(delta_seconds)
-    print(delta_seconds)
+test_actor.OnActorBeginOverlap = function(me, other)
+    print('rotate2')
 end

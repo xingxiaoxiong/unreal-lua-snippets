@@ -1,7 +1,3 @@
-local character = {}
-
-function character:tick(delta)
-    self.rotate(delta)
+test_actor.OnActorBeginOverlap = function(me, other)
+    print('rotate')
 end
-
-return character

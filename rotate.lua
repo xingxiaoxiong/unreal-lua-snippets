@@ -1,3 +1,3 @@
 test_actor.OnActorBeginOverlap = function(me, other)
-    print('rotate')
+    me.SetText('Price: 50 JPY')
 end

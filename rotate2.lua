@@ -1,5 +1,5 @@
 test_actor.OnActorBeginOverlap = function(me, other)
-    me.SetText('Duck')
+    me.SetText('Price: 100 JPY')
 end
 
 test_actor.Tick = function(me, delta)
